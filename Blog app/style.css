@@ -275,32 +275,50 @@ li {
     position: relative;
     left: 29%;
     top: 110px;
-    font-size: 13px;
+    font-size: 16px;
     word-spacing: 4px;
 }
-.input-contact{
+
+.input-contact {
     width: 100%;
     position: absolute;
-    top:180px;
+    top: 180px;
+    margin-left: 80px;
 }
 
-.input-element{
+.input-element {
     display: block;
     width: 50%;
     margin-bottom: 20px;
     padding: 8px;
     border-radius: 5px;
 }
-textarea{
+
+textarea {
     height: 150px;
 }
-.sifre{
+
+.sifre {
     width: 300px;
     margin-left: 100px;
     display: block;
 }
-.btn{
-    
+
+.c-btn {
+    color: #fff;
+    background-color: #DD4453;
     width: 200px;
     margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px;
+}
+label{
+    display: inline-block;
+    background-color: white;
+    margin-left: 220px;
+    font-family: 'Pacifico', cursive;
+    border:2px solid #414A50;
+    margin-bottom: 1px;
+     
 }

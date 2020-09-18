@@ -205,6 +205,7 @@ li {
     background-color: #D8DADB;
 }
 
+
 #nav ul {
     list-style: none;
     overflow: hidden;
@@ -244,15 +245,15 @@ li {
 #c-container {
     border-bottom: 1px solid #818081;
     padding-bottom: 40px;
-    border-bottom-width: 100%;
+
 }
 
 #c-header {
     display: inline-block;
     color: #f1f1f1;
     position: absolute;
-    left: 45%;
-    right: 50%;
+    left: 40%;
+    right: 60%;
     transform: translate(-50%, -50%);
     font-size: 55px;
     font-weight: 100;
@@ -263,7 +264,7 @@ li {
 
     color: #f1f1f1;
     position: absolute;
-    left: 44%;
+    left: 42%;
     top: 70px;
     font-size: 25px;
     word-spacing: 5px;
@@ -273,22 +274,33 @@ li {
 .text-header {
     color: #f1f1f1;
     position: relative;
-    left: 29%;
+    left: 25%;
     top: 110px;
     font-size: 16px;
     word-spacing: 4px;
 }
 
-.input-contact {
-    width: 100%;
+.col-53 {
+    width: 53%;
+    display: inline-block;
+    float: left;
     position: absolute;
     top: 180px;
-    margin-left: 80px;
+    margin-left: 70px;
+
+}
+
+
+
+.input-contact {
+    width: 100%;
+
+
 }
 
 .input-element {
     display: block;
-    width: 50%;
+    width: 100%;
     margin-bottom: 20px;
     padding: 8px;
     border-radius: 5px;
@@ -313,12 +325,48 @@ textarea {
     border-radius: 4px;
     padding: 10px;
 }
-label{
+
+label {
     display: inline-block;
     background-color: white;
     margin-left: 220px;
     font-family: 'Pacifico', cursive;
-    border:2px solid #414A50;
+    border: 2px solid #414A50;
     margin-bottom: 1px;
-     
+
 }
+
+.col-35 {
+    width: 35%;
+    position: relative;
+    top: 155px;
+    left: 65%;
+    margin: 0 70px;
+    display: inline-block;
+    float: left;
+    padding: 2px 20px;
+}
+
+
+
+
+
+.col-35 li{
+    margin-bottom: 42px;
+}
+
+.address {
+    background-color: #f1f1f1;
+    font-size: 30px;
+
+
+}
+
+.address-text {
+    color: #f1f1f1;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 13px;
+}
+
+.phone {}
